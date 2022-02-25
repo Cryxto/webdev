@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Form</title>
+</head>
+
+<body>
+    <h1>The Form Practice</h1>
+    <form action="/matkul">
+        <p>
+            <label for="username">Enter your username</label>
+            <input id="username" type="text" placeholder="username" name="username">
+        </p>
+        <button type="button">The checker</button>
+        <p>
+            <label for="password">Enter your password</label>
+            <input type="password" id="password" placeholder="password" name="password">
+        </p>
+        <p>
+            <label for="color">Choose your color</label>
+            <input type="color" id="color" name="color">
+        </p>
+        <input type="submit" value="click me mf!!">
+        <p>
+            <label for="number">Enter your number</label>
+            <input type="number" id="number" placeholder="number" name="number">
+        </p>
+        <p>
+            <button>Submit</button>
+        </p>
+    </form>
+    <button>Hellow</button>
+    <hr>
+    <h2>Hijacking Search</h2>
+    <p>
+    <h3>Google Search</h3>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>Search by Google</button>
+    </form>
+    </p>
+    <p>
+    <h3>Youtube Search</h3>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query">
+        <button>Search by Youtube</button>
+    </form>
+    </p>
+    <h2>More assignment</h2>
+    <form action="/pilmatkul">
+        <input type="checkbox" name="pilih" id="centangmatkul">
+        <label for="centangmatkul">Pilih matkul</label>
+        <p>
+            <label for="d3">d3</label>
+            <input type="radio" name="gelar" id="d3" value="d3">
+            <label for="s1">s1</label>
+            <input type="radio" name="gelar" id="s1" value="s1">
+            <label for="s2">s2</label>
+            <input type="radio" name="gelar" id="s2" value="s2">
+        </p>
+        <p>
+            <label for="angkatan">angkatan : </label>
+            <select name="angkatan" id="angkatan">
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+            </select>
+        </p>
+        <p>
+            <label for="kenakalan">kenakalan anda</label>
+            <input type="range" id="kenakalan" name="kenakalan" min="0" max="10">
+        </p>
+        <p>
+            <label for="komen">komentar</label>
+            <br>
+            <textarea name="komen" id="komen" cols="30" rows="10" placeholder="Tambahkan komentar :)"></textarea>
+        </p>
+        <button>Submit</button>
+    </form>
+    <h2>Validation</h2>
+    <form action="/percobaan">
+        <label for="validasi">Enter first name</label>
+        <input type="text" name="validasi_nama" id="validasi_nama" required>
+        <p>
+            <label for="usernamevalid">Enter username</label>
+            <input type="text" id="usernamevalid" name="usernamevalid" required minlength="5" maxlength="15">
+        </p>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>

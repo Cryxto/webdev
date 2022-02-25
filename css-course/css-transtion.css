@@ -1,0 +1,44 @@
+
+.circle{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(138, 211, 240);
+    /* transition: 1s; */
+    transition: background-color 0.5s ease-in, border-radius 0.5s, color 0.5s;
+    font-size: 30px;
+    color: rgba(0,0,0,0);
+}
+.circle:hover {
+    background-color: aquamarine;
+    border-radius: 50%;
+    color: black;
+}
+p{
+    text-align: center;
+    padding: 25% 25% 25% 25%; 
+}
+
+section div{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    margin: 20px 0;
+    transition: margin-left 3s;
+}
+
+section:hover div{
+    margin-left: 500px;
+}
+
+div:nth-of-type(2){
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+div:nth-of-type(3){
+    transition-timing-function: ease-in;
+}
+div:nth-of-type(4){
+    transition-timing-function: ease-out;
+}
+div:nth-of-type(5){
+    transition-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
+}

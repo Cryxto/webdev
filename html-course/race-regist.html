@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race Registration !!!</title>
+</head>
+
+<body>
+
+    <h1>Race Registration</h1>
+    <form action="/Web-development-and-aplication/html-course/race-registed.html">
+        <!-- for name -->
+        <div>
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstname" id="firstname" required>
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" id="lastname" required>
+        </div>
+        <!-- For Race Selection  -->
+        <div>
+            <p>
+                Select a Race :
+            </p>
+            <div>
+                <input type="radio" name="raceselect" id="FR5" value="FunRun5k" required>
+                <label for="FR5">For Fun 5k</label>
+            </div>
+            <div>
+                <input type="radio" name="raceselect" id="HM" value="HalfMarathon" required>
+                <label for="HM">Half Marathon</label>   
+            </div>
+            <div>
+                <input type="radio" name="raceselect" id="FM" value="FullMarathon" required>
+                <label for="FM">Full Marathon</label>
+            </div>
+        </div>
+        <!-- For User Account -->
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter your e-mail" required>
+        <label for="password">password</label>
+        <input type="password" name="password" id="password" placeholder="Enter your password" required>
+        <!-- For Group Age  -->
+        <div>
+            <label for="selectage">Select Age Group</label>
+            <select name="selectage" id="selectage">
+                <option value="Under 18">Under 18</option>
+                <option value="19-25">19-25</option>
+                <option value="26-50">26-50</option>
+            </select>
+        </div>
+        <!-- Button For Submission -->
+        <button>Register!</button>
+    </form>
+</body>
+
+</html>

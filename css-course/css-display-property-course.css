@@ -1,0 +1,23 @@
+h1{
+    background-color: burlywood;
+    border: 1px solid black;
+    /* display: inline; */
+    margin: 20px;
+    width: 100px;
+    padding: 20px;
+}
+span{
+    background-color: coral;
+    border: 1px solid black;
+    width: 40px;
+    padding: 20px;
+    margin: 10px;
+}
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blanchedalmond;
+    border: 8px solid black;
+    display: inline-block;
+    margin: 20px;
+}
