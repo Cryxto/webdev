@@ -1,0 +1,2 @@
+Reset CSS is not necessary because there is better aproach
+https://ageek.dev/css-resets
