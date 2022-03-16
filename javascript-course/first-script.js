@@ -34,11 +34,11 @@ if (age >= 18) {
     if (password.indexOf(' ') === -1 && password.length <= 20 && password.length >= 5){//THIS IF IS NOT NECESSARY 
         alert("Password valid!");//U CAN JUST USE ALERT BECAUSE THE PASSWORD IS ALREADY FULFIL THE RULES
     }
-    input = prompt("Now verify your password");
+    input = prompt("Now verify your password !");
     let passValidation = input;
     while(passValidation!==password){
         alert("Password not match!!")
-        input = prompt("Now verify your password");
+        input = prompt("Now verify your password !");
         passValidation=input ;
     }
     alert(`Welcome ${username} !`);
